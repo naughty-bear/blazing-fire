@@ -1,7 +1,7 @@
 import React from 'react'
 export default function header() {
     return (
-        <header className="navbar py-5  bg-black max-w-screen-xl mx-auto">
+        <header className="navbar py-5  bg-black px-96 mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
