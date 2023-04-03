@@ -8,7 +8,7 @@ export default function hero() {
                 <div className='text-6xl leading-normal text-white mt-3 font-bold'>Enjoy Your Virtual Reality Experience with BLAZINGFIRE<span className='span'>.</span></div> <br />
                 <div className='mb-10'>Blazingfire is a start-up that leverages cutting-edge virtual reality and generative AI technologies (such as 360 photography and video or VR headsets) in different areas especially real estate to create immersive experiences for users.</div>
                 <div className="flex flex-row">
-                    <button className=' button bg-gradient-to-r from-yellow-400 to-red-500 hover:text-black'>Back a demo</button>
+                    <button className=' button bg-gradient-to-r from-pink-500 to-blue-500 hover:text-black'>Back a demo</button>
                     <button className=' button sort-btn  bg-transparent'><a>Contact Us <span className='font-thin text-xs'>↗️</span></a></button>
                 </div>
             </div>

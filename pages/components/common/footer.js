@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function footer () {
     return (
-        <footer className="footer p-10  text-base-content bg-black">
+        <footer className="footer p-10  text-base-content bg-black max-w-screen-xl mx-auto">
             <div>
                 <span className="footer-title">Services</span>
                 <a className="link link-hover">Branding</a>
