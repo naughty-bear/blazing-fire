@@ -1,22 +1,64 @@
 import React from 'react'
 
-export default function ProductSections () {
+export default function ProductSections() {
     return (
-        <div>
-            <div>
-                {/* <!-- Start block --> */}
-                <section className="bg-white dark:bg-gray-900">
-                    <div className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-                        <div className="mr-auto place-self-center lg:col-span-7">
-                            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">Building digital products & brands.</h1>
-                            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">This free and open-source landing page template was built using the utility classNamees from <a href="https://tailwindcss.com" className="hover:underline">Tailwind CSS</a> and based on the components from the <a href="https://flowbite.com/docs/getting-started/introduction/" className="hover:underline">Flowbite Library</a> and the <a href="https://flowbite.com/blocks/" className="hover:underline">Blocks System</a>.</p>
+        <div >
+            <div className='mt-24'>
+                {/* <!-- Start card --> */}
+                <ul className='flex m-auto lg:flex-row sm:flex-col'>
+                    <li>
+                        <div class="card w-72 h-96   shadow-xl">
+                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div class="card-actions justify-end">
+                                    <button class="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </section>
-                {/* <!-- End block --> */}
+                    </li>
+                    <li>
+                        <div class="card w-72 h-96 shadow-xl">
+                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div class="card-actions justify-end">
+                                    <button class="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card w-72 h-96 shadow-xl">
+                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div class="card-actions justify-end">
+                                    <button class="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card w-72 h-96 shadow-xl ">
+                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div class="card-actions justify-end">
+                                    <button class="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                {/* <!-- End card--> */}
 
                 {/* <!-- Start block --> */}
-                <section className="bg-white dark:bg-gray-900">
+                <section className=" dark:bg-gray-900">
                     <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
                         <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
                             <a href="#" className="flex items-center lg:justify-center">
@@ -80,7 +122,7 @@ export default function ProductSections () {
                 {/* <!-- End block --> */}
 
                 {/* <!-- Start block --> */}
-                <section className="bg-gray-50 dark:bg-gray-800">
+                <section className="dark:bg-gray-800">
                     <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
                         {/* <!-- Row --> */}
                         <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
@@ -151,7 +193,7 @@ export default function ProductSections () {
                 {/* <!-- End block --> */}
 
                 {/* <!-- Start block --> */}
-                <section className="bg-white dark:bg-gray-900">
+                <section className=" dark:bg-gray-900">
                     <div className="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
                         <div className="col-span-2 mb-8">
                             <p className="text-lg font-medium text-purple-600 dark:text-purple-500">Trusted Worldwide</p>
@@ -199,7 +241,7 @@ export default function ProductSections () {
                 {/* <!-- End block --> */}
 
                 {/* <!-- Start block --> */}
-                <section className="bg-gray-50 dark:bg-gray-800">
+                <section className=" dark:bg-gray-800">
                     <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
                         <figure className="max-w-screen-md mx-auto">
                             <svg className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -221,7 +263,7 @@ export default function ProductSections () {
                 {/* <!-- End block --> */}
 
                 {/* <!-- Start block --> */}
-                <section className="bg-white dark:bg-gray-900">
+                <section className=" dark:bg-gray-900">
                     <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
                         <div className="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
                             <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Designed for business teams like yours</h2>
@@ -348,7 +390,7 @@ export default function ProductSections () {
                 {/* <!-- End block --> */}
 
                 {/* <!-- Start block --> */}
-                <section className="bg-white dark:bg-gray-900">
+                <section className=" dark:bg-gray-900">
                     <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-24 lg:px-6 ">
                         <h2 className="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">Frequently asked questions</h2>
                         <div className="max-w-screen-md mx-auto">
@@ -417,7 +459,7 @@ export default function ProductSections () {
                 </section>
                 {/* <!-- End block --> */}
                 {/*  <!-- Start block --> */}
-                <section className="bg-gray-50 dark:bg-gray-800">
+                <section className=" dark:bg-gray-800">
                     <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
                         <div className="max-w-screen-sm mx-auto text-center">
                             <h2 className="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">Start your free trial today</h2>
