@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function irtualTour() {
   return (
-    <section>
-      <div className='max-w-screen-xl mx-auto flex flex-row pb-20' >
+    <section className='bg-black relative'>
+      <img src='/images/background/ormanents02.png' className='absolute z-0 -top-12 left-10 w-2/5'></img>
+      <div className='max-w-screen-xl mx-auto flex flex-row py-20 relative z-10' >
         {/* 虚拟展示区 */}
         <div className='w-3/5'>
           <img src='/images/banner-3.png' className='bg-pink max-w-screen-md max-h-96 '></img>

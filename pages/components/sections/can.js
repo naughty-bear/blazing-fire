@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function can() {
     return (
-        <div className='max-w-screen-xl mx-auto py-20 opacity-100'>
+        <div className='max-w-screen-xl mx-auto py-20 bg-transparent'>
             <h2 className='text-center text-5xl text-white font-bold'>What can we do for you<span className='span'>.</span></h2>
             <div className=' w-9/12 mx-auto'>
                 <ul >
@@ -20,7 +20,6 @@ export default function can() {
                 </ul>
                 <button className=' button bg-gradient-to-r from-pink-500 to-blue-500 hover:text-black mt-10'>Back a demo</button>
             </div>
-
         </div>
     )
 }

@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function createWorld() {
     return (
-        <section>
-            <div className='flex flex-row max-w-screen-xl mx-auto my-20 '>
+        <section className='bg-gray-900 relative'> 
+            <img src='/images/background/ormanents02.png' className='absolute -z-0 w-2/5 left-10'></img>
+            <div className='flex flex-row max-w-screen-xl mx-auto py-32 relative z-10'>
                 {/* img区域 */}
                 <div className='w-1/2 relative'>
                     <img src='/images/banner-4.png' className='max-w-xl relative top-10 left-20 z-10'></img>

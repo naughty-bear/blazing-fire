@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function vRtechnique() {
     return (
-        <section className='w-screen'>
-            <div className='max-w-screen-xl mx-auto flex flex-row my-20'>
+        <section className='w-screen bg-black relative'>
+        <img src='/images/background/ormanents02.png' className='absolute z-0 w-2/4 -top-32'></img>
+            <div className='max-w-screen-xl mx-auto flex flex-row py-20 relative z-10 '>
                 {/* 左侧 */}
                 <div className='w-3/5 flex flex-row flex-wrap relative mt-20'>
                     <img src='/images/banner-4.png'  className='w-96 h-80 absolute top-6 mr-8'></img>
