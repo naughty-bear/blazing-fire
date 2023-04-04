@@ -8,7 +8,6 @@ export default function Home () {
     <div className='bg-black'>
       <Head>
         <title>Create Next App</title>
-        <img src='/images/banner-3.png fixed z-20'></img>
       </Head>
       <Header />
       <Hero />
