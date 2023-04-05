@@ -1,43 +1,58 @@
 @tailwind base;
 @tailwind components;
+
 @layer components {
-    .button {@apply 
-        normal-case mr-5 h-16  rounded-full text-white w-96
+    .button {
+        @apply normal-case mr-5 h-16 rounded-full text-white w-96
     }
 }
+
 @tailwind utilities;
+
 .home-selected {
-    color:rgb(253, 51, 158);
+    color: rgb(253, 51, 158);
     font-size: 1.2rem;
 }
+
 .span {
     color: rgb(253, 51, 158);
 }
+
 .home-select:hover {
     color: rgb(253, 51, 158);
 }
+
 /* 导航菜单 */
 .bttn:hover {
     cursor: pointer;
 }
+
 .button {
-    width:254px
+    width: 254px
 }
+
 /* 跳转按钮 */
 .sort-btn {
-    position:relative;
+    position: relative;
     border: 2px solid #fff;
 }
+
 .sort-btn:hover {
-    background-color:#fff;
+    background-color: #fff;
     color: black;
 }
+
 .sort {
     position: absolute;
     width: 30px;
-    top:16px;
-    right:50px
+    top: 16px;
+    right: 50px
 }
+
 .img {
-    width:100%;
+    width: 100%;
+}
+
+.ipt:focus {
+    outline: none;
 }

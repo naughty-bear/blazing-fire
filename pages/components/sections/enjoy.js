@@ -3,7 +3,7 @@ import React from 'react'
 export default function enjoy() {
     return (
         <section className='bg-gray-900 relative'>
-        <img src='/images/background/ormanents03.png' className='absolute z-0 top-20'></img>
+        <img src='/images/background/ormanents03.png' className='absolute z-0 top-20 opacity-50'></img>
             <div className='pt-10 max-w-screen-xl mx-auto pb-20 relative z-10'>
                 {/* 文本区域 */}
                 <div className='text-center px-60'>

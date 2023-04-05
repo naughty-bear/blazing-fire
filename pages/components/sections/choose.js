@@ -3,7 +3,7 @@ import React from 'react'
 export default function choose() {
     return (
         <section className='bg-black relative'>
-            <img src='/images/background/ormanents03.png' className='absolute -z-0 mt-20'></img>
+            <img src='/images/background/ormanents03.png' className='absolute -z-0 mt-20 opacity-50'></img>
             <div className='max-w-screen-xl mx-auto pt-32 relative z-10'>
                 {/* 文本区域 */}
                 <div className='text-center px-60'>
