@@ -5,7 +5,7 @@ import ProductSections from './components/sections/product-sections'
 import Footer from './components/common/footer';
 export default function Home () {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Head>
         <title>Create Next App</title>
       </Head>

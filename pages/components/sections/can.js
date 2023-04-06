@@ -4,7 +4,7 @@ export default function can() {
     return (
         <div className='max-w-screen-xl mx-auto py-20 bg-transparent'>
             <h2 className='text-center text-5xl text-white font-bold'>What can we do for you<span className='span'>.</span></h2>
-            <div className=' w-9/12 mx-auto'>
+            <div className=' md:w-9/12 mx-auto px-4'>
                 <ul >
                     <li className='mt-8'>
                         <h2 className='text-white '>Project Consultation:</h2>
