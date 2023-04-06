@@ -18,7 +18,7 @@ export default function hero() {
                         <button className=' button sort-btn  bg-transparent Margin-t'><a>Contact Us <span className='font-thin text-xs'>↗️</span></a></button>
                     </div>
                 </div>
-                <div className="relative lg:absolute lg:w-1/2 h-full">
+                <div className="relative lg:w-1/2 h-full">
                     <img src='/images/banner.png ' className="img absolute z-20 top-20 right-12"></img>
                     <img src='/images/banner-2.png' className="rotate-12 absolute top-16 right-10 w-96 z-0 img1"></img>
                     <img src='/images/banner-3.png' className='absolute top-16 left-12 w-64 z-10 rounded-xl '></img>
