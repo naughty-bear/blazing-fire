@@ -54,6 +54,9 @@
 .img1 {
     width: 75%;
 }
+.img2 {
+    width: 50%;
+}
 
 .ipt:focus {
     outline: none;
@@ -73,10 +76,23 @@
 @media screen and (max-width:768px) {
     .Flex{
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
+    }
+    .Flex-r{
+        display: flex;
+        flex-direction:column-reverse;
     }
     .Margin-t {
         margin-top: 10px;
+    }
+    .Margin-T {
+        margin-top: 100%;
+    }
+    .Margin-B {
+        margin-bottom: 50px;
+    }
+    .Margin-b {
+        margin-bottom: 30%;
     }
     .Width {
         width: 100%;
