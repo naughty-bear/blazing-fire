@@ -41,14 +41,14 @@ export default function footer() {
             {/* 底部模块 */}
             <footer className="text-base-content max-w-screen-xl mx-auto relative z-10 px-4 ">
                 <div className='flex flex-row mb-80 Flex' >
-                    <div className='md:w-7/12 flex flex-row relative Flex'>
+                    <div className='md:w-7/12 flex flex-row  Flex'>
                         <img src='/images/logo.png' className='w-60 h-12'></img>
-                        <div className=' absolute right-0 flex flex-col'>
+                        <div className=' md:ml-14 flex flex-col'>
                             <span className='text-white'>Email Us</span>
                             <span className='text-pink-600 hover:text-indigo-700 bttn'>info@blazingfire.co.uk</span>
                         </div>
                     </div>
-                    <div className='md:w-5/12 md:ml-10 Margin-t'>
+                    <div className='md:w-5/12  Margin-t'>
                         <h2 className='text-white text-lg'>Newsletter</h2>
                         <p className='text-gray-400 text-xs mt-4'>71-75, Shelton Street, Covent Garden, London, WC2H 9JQ, UNITED KINGDOM</p>
                     </div>

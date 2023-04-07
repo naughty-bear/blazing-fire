@@ -6,7 +6,7 @@ export default function createWorld() {
             <img src='/images/background/ormanents02.png' className='absolute z-0 lg:w-2/5 left-10'></img>
             <div className='flex flex-row max-w-screen-xl mx-auto py-32 relative z-10 px-4 Flex'>
                 {/* img区域 */}
-                <div className='md:w-1/2 relative Margin-B'>
+                <div className='md:w-1/2 relative Margin-B w-2/3 mx-auto'>
                     <img src='/images/banner-4.png' className='img relative top-10 left-20 z-10'></img>
                     <img src='/images/banner-2.png' className='img1 absolute left-20 top-0'></img>
                     <img src='/images/banner-3.png' className='img2 rounded-xl absolute right-0 bottom-20'></img>

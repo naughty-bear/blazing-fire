@@ -86,15 +86,18 @@
         margin-top: 10px;
     }
     .Margin-T {
-        margin-top: 100%;
+        margin-top: 70%;
     }
     .Margin-B {
         margin-bottom: 50px;
     }
     .Margin-b {
-        margin-bottom: 30%;
+        margin-bottom: 35%;
     }
     .Width {
         width: 100%;
+    }
+    .Width1 {
+        width: 70%;
     }
 }
