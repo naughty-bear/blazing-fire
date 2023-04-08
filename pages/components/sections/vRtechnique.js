@@ -11,7 +11,7 @@ export default function vRtechnique() {
                     <img src='/images/banner-5.jpeg' className='w-96 h-60 absolute top-8 right-0 Display'></img>
                     <img src='/images/banner-6.jpeg' className='md:w-96 h-60 md:absolute top-96 mr-10 Width z-10'></img>
                     <img src='/images/banner-7.jpeg' className='w-80 h-54 absolute top-80 right-0 Display'></img>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='w-20 rounded-full absolute top-1/2 left-1/3 md:top-1/3 bttn  z-10  animate-pulse bg-purple-500'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='w-20 rounded-full absolute top-1/2 left-1/3 md:top-1/3 bttn  z-10  animate-pulse bg-purple-500 opacity-60'>
                         <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
                     </svg>
