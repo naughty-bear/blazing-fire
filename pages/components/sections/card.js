@@ -1,10 +1,10 @@
 import React from 'react'
-
+import 'animate.css'
 
 export default function Cord() {
     return (
-        <div className='bg-black'>
-            <ul className='flex mx-auto  flex-row Flex py-20 max-w-screen-xl px-4'>
+        <div className='bg-black '>
+            <ul className='flex mx-auto  flex-row Flex py-20 max-w-screen-xl px-4 animate__animated animate__slideInUp'>
                 <li className='md:w-1/4'>
                     <div className="card  h-full text-white text-center shadow-xl pt-10 bg-gradient-to-b from-pink-600 to-blue-500 ">
                         <figure className='text-blue-500 w-16 h-16 rounded-full bg-gray-400 opacity-40 mx-auto'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-8 h-8">

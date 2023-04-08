@@ -1,12 +1,12 @@
 import React from 'react'
-
+import 'animate.css'
 export default function enjoy() {
     return (
         <section className='bg-gray-900 relative'>
         <img src='/images/background/ormanents03.png' className='absolute z-0 top-20 opacity-50'></img>
             <div className='pt-10 max-w-screen-xl mx-auto pb-20 relative z-10 px-4'>
                 {/* 文本区域 */}
-                <div className='text-center lg:px-60 md:px-32'>
+                <div className='text-center lg:px-60 md:px-32 animate__animated  animate__slideInUp'>
                     <h2 className='font-bold text-4xl text-white '>Enjoy the limitless entertainment possibilities with VR<span className='span'>.</span></h2>
                     <p className='mt-5 text-gray-400'>Our expertise in virtual technology enables us to create immersive experiences relevant to various different sectors, such as real estate, tourism, education, and entertainment</p>
                 </div>

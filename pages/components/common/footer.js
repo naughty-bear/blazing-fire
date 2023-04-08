@@ -1,5 +1,5 @@
 import React from 'react'
-
+import 'animate.css'
 export default function footer() {
     return (
         <div className='bg-black relative'>
@@ -7,7 +7,7 @@ export default function footer() {
             <img src='/images/background/ormanents03.png' className='absolute  bottom-0 z-0 opacity-50'></img>
 
             {/* 邮箱区块 */}
-            <div className='max-w-screen-xl mx-auto flex flex-row py-40 lg:w-3/5 md:4/5 relative z-10 px-4 Flex'>
+            <div className='max-w-screen-xl mx-auto flex flex-row py-40 lg:w-3/5 md:4/5 relative z-10 px-4 Flex animate__animated animate__slideInUp'>
                 {/* 文本区 */}
                 <div className='md:w-1/2'>
                     <h1 className='text-white text-4xl font-bold bttn'>Contact Us</h1>
@@ -39,7 +39,7 @@ export default function footer() {
                 </div>
             </div>
             {/* 底部模块 */}
-            <footer className="text-base-content max-w-screen-xl mx-auto relative z-10 px-4 ">
+            <footer className="text-base-content max-w-screen-xl mx-auto relative z-10 px-4 animate__animated animate__slideInUp">
                 <div className='flex flex-row mb-80 Flex' >
                     <div className='md:w-7/12 flex flex-row  Flex'>
                         <img src='/images/logo.png' className='w-60 h-12'></img>
