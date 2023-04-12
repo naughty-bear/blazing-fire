@@ -20,15 +20,15 @@ export default function footer() {
                     <ul>
                         <li className='flex flex-col mb-8'>
                             <span className='text-gray-400'>Your Name *</span>
-                            <input className='h-10 bg-black border border-gray-400 pl-4 font-extralight text-white ipt' placeholder='Your Name'/>
+                            <input className='h-10 bg-black border border-gray-400 pl-4 font-extralight text-white ipt' placeholder='Your Name' />
                         </li>
                         <li className='flex flex-col mb-8'>
                             <span className='text-gray-400'>Your Email *</span>
-                            <input className='h-10 bg-black border border-gray-400 pl-4 font-extralight text-white ipt' placeholder='Your Email'/>
+                            <input className='h-10 bg-black border border-gray-400 pl-4 font-extralight text-white ipt' placeholder='Your Email' />
                         </li>
                         <li className='flex flex-col mb-8'>
                             <span className='text-gray-400'>Subject *</span>
-                            <input className='h-10 bg-black border border-gray-400 pl-4 font-extralight text-white ipt' placeholder='Issue Here'/>
+                            <input className='h-10 bg-black border border-gray-400 pl-4 font-extralight text-white ipt' placeholder='Issue Here' />
                         </li>
                         <li className='flex flex-col mb-10'>
                             <span className='text-gray-400'>Feel free to ask a question or simply leave a comment or add text *</span>
@@ -40,17 +40,24 @@ export default function footer() {
             </div>
             {/* 底部模块 */}
             <footer className="text-base-content max-w-screen-xl mx-auto relative z-10 px-4 animate__animated animate__slideInUp">
-                <div className='flex flex-row mb-80 Flex' >
+                <div className='flex flex-row mb-20 Flex' >
                     <div className='md:w-7/12 flex flex-row  Flex'>
                         <img src='/images/logo.png' className='w-60 h-12'></img>
-                        <div className=' md:ml-14 flex flex-col'>
-                            <span className='text-white'>Email Us</span>
-                            <span className='text-pink-600 hover:text-indigo-700 bttn'>info@blazingfire.co.uk</span>
+                        <div className=' md:ml-14 card flex flex-col'>
+                                <span className='text-white'>Email Us</span>
+                                <span className='text-pink-600 hover:text-indigo-700 bttn'>info@blazingfire.co.uk</span>
                         </div>
                     </div>
                     <div className='md:w-5/12  Margin-t'>
                         <h2 className='text-white text-lg'>Newsletter</h2>
                         <p className='text-gray-400 text-xs mt-4'>71-75, Shelton Street, Covent Garden, London, WC2H 9JQ, UNITED KINGDOM</p>
+                        {/* 地图插件 */}
+                        <div className="elementor-custom-embed mt-10">
+                            <iframe loading="lazy" className='w-full h-72'
+                                src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&#038;t=m&#038;z=10&#038;output=embed&#038;iwloc=near"
+                                title="London Eye, London, United Kingdom"
+                                aria-label="London Eye, London, United Kingdom"></iframe>
+                        </div>
                     </div>
                 </div>
             </footer>

@@ -15,7 +15,7 @@ export default function choose() {
                     {/* 左 */}
                     <div className='lg:w-1/3 md:w-2/5 mt-10 flex flex-col text-right animate__animated animate__slideInRight'>
                         <ul className=' flex flex-col'>
-                            <li className='flex lg:mt-10 md:mt-6 text-right  h-1/3'>
+                            <li className='flex lg:mt-10 md:mt-6   h-1/3'>
                                 <h2 className='my-auto'>Multi-culture and bilingual advantage -- integration from East to West</h2>
                                 <img src='/images/elements02.png' className='w-20'></img>
                             </li>
@@ -30,11 +30,11 @@ export default function choose() {
                         </ul>
                     </div>
                     {/* 中 */}
-                    <div clssName=' lg:w-1/3 md:w-1/5 '>
+                    <div >
                         <img src='/images/banner.png' className='lg:max-w-xl mr-10 mx-auto Width1 animate__animated animate__slideInUp'></img>
                     </div>
                     {/* 右 */}
-                    <div className='lg:w-1/3 md:w-2/5 lg:mt-10 animate__animated animate__slideInLeft'>
+                    <div className='lg:w-1/3 md:w-2/5 lg:mt-10 animate__animated animate__slideInLeft mb-20'>
                         <ul className='  flex flex-col'>
                             <li className='flex mt-10  h-1/3'>
                                 <img src='/images/elements02.png' className='w-20'></img>

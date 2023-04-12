@@ -14,14 +14,14 @@ export default function createWorld() {
                     <img src='/images/elements01.png' className='w-20 rounded-xl absolute right-20 top-36'></img>
                     <img src='/images/elements02.png' className='w-36 rounded-xl absolute right-40 top-0'></img>
                     <img src='/images/elements03.png' className='w-20 rounded-xl absolute left-32 bottom-8 z-20'></img>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='w-20 rounded-full absolute top-1/2 left-1/2 z-20  bttn   animate-pulse bg-purple-500 opacity-60'>
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className='w-20 rounded-full absolute top-1/2 left-1/2 z-20  bttn   animate-pulse bg-purple-500 opacity-60'>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
                     </svg>
                 </div>
                 {/* 文本区域 */}
-                <div className='md:w-1/2 relative Margin-b animate__animated animate__slideInRight'>
-                    <h2 className='text-white text-5xl font-bold leading-normal ml-10 absolute top-1/3 '> The world your imagination invites you to create is almost limitless</h2>
+                <div className='md:w-1/2   animate__animated animate__slideInRight my-auto'>
+                    <h2 className='text-white text-5xl font-bold leading-normal ml-10 mt-20'> The world your imagination invites you to create is almost limitless</h2>
                 </div>
             </div>
         </section>
