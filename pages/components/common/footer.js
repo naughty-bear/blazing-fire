@@ -20,15 +20,15 @@ export default function footer() {
                     <ul>
                         <li className='flex flex-col mb-8'>
                             <span className='text-gray-400'>Your Name *</span>
-                            <input className='h-10 bg-black border border-gray-400 pl-4 font-extralight text-white ipt' placeholder='Your Name'/>
+                            <input className='h-10 bg-black border border-gray-400 pl-4 font-extralight text-white ipt' placeholder='Your Name' />
                         </li>
                         <li className='flex flex-col mb-8'>
                             <span className='text-gray-400'>Your Email *</span>
-                            <input className='h-10 bg-black border border-gray-400 pl-4 font-extralight text-white ipt' placeholder='Your Email'/>
+                            <input className='h-10 bg-black border border-gray-400 pl-4 font-extralight text-white ipt' placeholder='Your Email' />
                         </li>
                         <li className='flex flex-col mb-8'>
                             <span className='text-gray-400'>Subject *</span>
-                            <input className='h-10 bg-black border border-gray-400 pl-4 font-extralight text-white ipt' placeholder='Issue Here'/>
+                            <input className='h-10 bg-black border border-gray-400 pl-4 font-extralight text-white ipt' placeholder='Issue Here' />
                         </li>
                         <li className='flex flex-col mb-10'>
                             <span className='text-gray-400'>Feel free to ask a question or simply leave a comment or add text *</span>

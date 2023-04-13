@@ -11,7 +11,11 @@
     "animate.css": "^4.1.1",
     "autoprefixer": "^10.4.2",
     "daisyui": "^2.6.0",
+<<<<<<< HEAD
     "framer-motion": "^10.11.6",
+=======
+    "framer-motion": "^10.11.2",
+>>>>>>> bcba7405dd3142f76cb7780572fd42500be96a56
     "next": "^12.1.0",
     "panolens": "^0.12.1",
     "postcss": "^8.4.7",

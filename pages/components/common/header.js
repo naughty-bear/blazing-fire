@@ -28,7 +28,7 @@ export default function header() {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="normal-case border-transparent w-auto h-auto py-4 px-8 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white hover:text-black bttn" >Back a demo</a>
+                <a className="normal-case border-transparent w-auto h-auto py-4 px-8 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white transition ease-in hover:text-black bttn" >Back a demo</a>
             </div>
         </header>
         </div>
