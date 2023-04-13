@@ -7,18 +7,6 @@ import { Box, Flex, jsx } from 'theme-ui';
 import * as THREE from 'three';
 
 
-// import vr3d1Bedroom_1 from 'assets/3d-img/序号1-3/1Bedroom_1.png';
-// import vr3d1Bedroom_2 from 'assets/3d-img/序号1-3/1Bedroom_2.png';
-// import vr3d1Bedroom_3 from 'assets/3d-img/序号1-3/1Bedroom_3.png';
-
-// import vr3d1Bedroom_4 from 'assets/3d-img/序号4-6/1Bedroom_4.png';
-// import vr3d1Bedroom_5 from 'assets/3d-img/序号4-6/1Bedroom_5.png';
-// import vr3d1Bedroom_6 from 'assets/3d-img/序号4-6/1Bedroom_6.png';
-
-// import vr3d1Bedroom_7 from 'assets/3d-img/序号7-9/1Bedroom_7.png';
-// import vr3d1Bedroom_8 from 'assets/3d-img/序号7-9/1Bedroom_8.png';
-// import vr3d1Bedroom_9 from 'assets/3d-img/序号7-9/1Bedroom_9.png';
-
 const picList = [
   '/images/3d-img/序号1-3/1Bedroom_1.png',
   '/images/3d-img/序号1-3/1Bedroom_2.png',
@@ -38,14 +26,13 @@ const styles = {
     height: [250, 250, 250, 800, 880, 880],
     width: '100%',
     cursor: 'pointer',
-    // overflow: 'hidden',
+    overflow: 'hidden',
     padding: ['10px 10px', '121px 0'],
   },
   vrContainer: {
     overflow: 'hidden',
-    height: '100%',
-    position: 'relative',
-    borderRadius: '10px',
+    // height: '100%',
+    // position: 'relative',
   },
   controlsBarImg: {
     width: [30, 72],
@@ -60,8 +47,10 @@ const styles = {
     padding: [0, 0, 0, '10px 10px', '10px 10px'],
   },
   viewContainer: {
-    height: '100%',
-    // margin: '60px auto',
+    borderRadius: '10px',
+    height: '80%',
+    // margin: '100px auto',
+    margin:'10% 0',
     overflow: 'hidden',
     position: 'absolute',
     right: 0,
@@ -249,6 +238,7 @@ const Widgets = () => {
         <div
           sx={{
             width: '60%',
+            height:'100%',
             margin: '30px auto',
             visibility: !isShowList ? 'hidden' : 'visible',
           }}
@@ -295,7 +285,7 @@ const Widgets = () => {
             }}
           />
           <img
-            src='images/blazingfire-img/icon-bar-@2x.png'
+            src='/images/blazingfire-img/icon-bar-@2x.png'
             alt="widgets"
             sx={styles.controlsBarImg}
             onClick={() => {

@@ -11,7 +11,7 @@ export default function irtualTour() {
       <img src='/images/background/ormanents02.png' className='absolute z-0 -top-12 left-10 w-2/5'></img>
       <div className='max-w-screen-xl mx-auto flex flex-row  relative z-10 px-4 Flex' >
         {/* 虚拟展示区 */}
-        <div className='md:w-2/4 animate__animated animate__slideInRight'>
+        <div className='md:w-2/4 animate__animated animate__slideInRight max-h-full' >
           <DynamicComponentWithNoSSR/>
         </div>
         {/* 文本区域 */}
