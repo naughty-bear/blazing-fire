@@ -1,16 +1,20 @@
 import React from 'react'
 import 'animate.css'
+import dynamic from 'next/dynamic'
+const DynamicComponentWithNoSSR = dynamic(() => import('../3d'), {
+  ssr: false,
+});
 export default function irtualTour() {
   return (
     <section className='bg-black relative'>
       <img src='/images/background/ormanents02.png' className='absolute z-0 -top-12 left-10 w-2/5'></img>
-      <div className='max-w-screen-xl mx-auto flex flex-row py-20 relative z-10 px-4 Flex' >
+      <div className='max-w-screen-xl mx-auto flex flex-row  relative z-10 px-4 Flex' >
         {/* 虚拟展示区 */}
         <div className='md:w-2/4 animate__animated animate__slideInRight'>
-          <img src='/images/banner-3.png' className='bg-pink max-w-screen-md w-full h-full '></img>
+          <DynamicComponentWithNoSSR/>
         </div>
         {/* 文本区域 */}
-        <div className='md:w-2/4 md:pl-10 animate__animated animate__slideInLeft'>
+        <div className='md:w-2/4 md:pl-10 animate__animated animate__slideInLeft mt-24'>
           <h2 className='font-bold text-4xl text-white'>Boost your Real Estate sales with Virtual Tours<span className='span'>.</span></h2>
           <p className='mt-6 text-gray-400'>Excellent value Virtual tours are indeed an excellent tool for real estate sales, as they allow potential buyers to have a more immersive and interactive experience of a property.</p>
           <ul className='w-full'>
