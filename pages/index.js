@@ -5,14 +5,8 @@ import ProductSections from './components/sections/product-sections'
 import Footer from './components/common/footer';
 import { ThemeProvider } from 'theme-ui';
 import theme from './components/index';
-<<<<<<< HEAD
-export default function Home () {
-=======
-
 export default function Home() {
->>>>>>> bcba7405dd3142f76cb7780572fd42500be96a56
   return (
-
     <div className='overflow-hidden'>
       <ThemeProvider theme={theme}>
         <Head>

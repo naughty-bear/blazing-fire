@@ -1,9 +1,5 @@
 /** @jsxImportSource theme-ui */
-<<<<<<< HEAD
-// import bg3d from '../../public/images/blazingfire-img/3d-bg.png';
-=======
-import bg3d from '../../public/images/blazingfire-img/3d-bg.png';
->>>>>>> bcba7405dd3142f76cb7780572fd42500be96a56
+
 import * as PANOLENS from 'panolens';
 import { useEffect, useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
