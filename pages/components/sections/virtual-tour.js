@@ -2,9 +2,9 @@
 import React from 'react'
 import 'animate.css'
 import dynamic from 'next/dynamic'
-const DynamicComponentWithNoSSR = dynamic(() => import('../3d'), {
-  ssr: false,
-});
+// const DynamicComponentWithNoSSR = dynamic(() => import('../3d'), {
+//   ssr: false,
+// });
 export default function irtualTour() {
   return (
     <section className='bg-black relative'>
@@ -12,7 +12,7 @@ export default function irtualTour() {
       <div className='max-w-screen-xl mx-auto flex flex-row  relative z-10 px-4 Flex' >
         {/* 虚拟展示区 */}
         <div className='md:w-2/4 animate__animated animate__slideInRight max-h-full' >
-          <DynamicComponentWithNoSSR/>
+          {/* <DynamicComponentWithNoSSR/> */}
         </div>
         {/* 文本区域 */}
         <div className='md:w-2/4 md:pl-10 animate__animated py-20 animate__slideInLeft'>
