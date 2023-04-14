@@ -10,7 +10,7 @@ export default function Home() {
     <div className='overflow-hidden'>
       <ThemeProvider theme={theme}>
         <Head>
-          <title>Create Next App</title>
+          <title>BlazingFire</title>
         </Head>
         <Header />
         <Hero />
